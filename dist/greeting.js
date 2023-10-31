@@ -1,3 +1,5 @@
-export const greeting = (firstWord, secondWord) => {
-    console.log(`${firstWord} ${secondWord}`);
+const greeting = (firstWord, secondWord) => {
+    return `${firstWord} ${secondWord}!`;
 };
+export default greeting;
+//# sourceMappingURL=greeting.js.map
