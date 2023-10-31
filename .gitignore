@@ -1,0 +1,45 @@
+# Ignore system and IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+*.ear
+*.exe
+
+# Ignore build and dependency directories
+target/
+node_modules/
+vendor/
+
+# Ignore log and temporary files
+*.log
+*.tmp
+
+# Ignore configuration files with sensitive data
+config.json
+secrets.json
+
+# Ignore backup files created by text editors
+*~   # For Vim
+*.swp # For Vim
+*#   # For Emacs
+
+# Ignore generated documentation
+doc/
+
+# Ignore images and media files
+*.jpg
+*.png
+*.gif
+
+# Ignore binary and archive files
+*.bin
+*.zip
+*.tar.gz
+
+# Ignore macOS specific files
+.DS_Store
